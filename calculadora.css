@@ -1,0 +1,122 @@
+.grid-calcu  {
+    width: 27vw;
+    height: 63vh;
+    background-color: rgb(204, 204, 204);
+    margin: 7% 35%;
+    border: indigo solid 1px;
+    border-radius: 7px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1px;
+    gap: 2.5px;
+}
+
+#tela   {
+    background-color: burlywood;
+    width: 25vw;
+    height: 8vh;
+    margin-left: unset;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.item   {
+    width: 5vw;
+    height: 6.3vh;
+    border: rgba(0, 0, 0, 0.651) solid 1px;
+    border-radius: 3.5px;
+    background-color: rgba(156, 142, 142, 0.664);
+    text-align: center;
+    font-size: 17px;
+    line-height: 6vh;
+    margin-left: 10px;
+}
+
+#T1 {
+    text-align: left;
+    padding-left: 7px;
+}
+
+#T1,#T2 {
+    line-height: 4vh;
+    height: 50%;
+}
+
+.t-n0   {
+    grid-area: 6/1;
+}
+
+.t-n1   {
+    grid-area: 5/1;
+}
+
+.t-n2   {
+    grid-area: 5/2;
+}
+
+.t-n3   {
+    grid-area: 5/3;
+}
+
+.t-n4   {
+    grid-area: 4/1;
+}
+
+.t-n5   {
+    grid-area: 4/2;
+}
+
+.t-n6   {
+    grid-area: 4/3;
+}
+
+.t-n7   {
+    grid-area: 3/1;
+}
+
+.t-n8   {
+    grid-area: 3/2;
+}
+
+.t-n9   {
+    grid-area: 3/3;
+}
+
+.t-c   {
+    grid-area: 2/1;
+}
+
+.t-ce   {
+    grid-area: 2/2;
+}
+
+.t-p   {
+    grid-area: 2/3;
+}
+
+.t-opd   {
+    grid-area: 2/4;
+}
+
+.t-opm   {
+    grid-area: 3/4;
+}
+
+.t-opsub   {
+    grid-area: 4/4;
+}
+
+.t-opso   {
+    grid-area: 5/4;
+}
+
+.t-vir   {
+    grid-area: 6/2;
+}
+
+.t-igual   {
+    grid-area: 6/3;
+}
